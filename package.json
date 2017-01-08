@@ -1,0 +1,22 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infernalslam/chorme-extendsion-angularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infernalslam/chorme-extendsion-angularjs/issues"
+  },
+  "homepage": "https://github.com/infernalslam/chorme-extendsion-angularjs#readme",
+  "dependencies": {
+    "angular-medium-editor": "^1.1.1"
+  }
+}
