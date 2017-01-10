@@ -3,17 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>TODO</title>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/ngstorage/0.3.11/ngStorage.min.js"></script> -->
     <script src="todo.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css.css">
   </head>
   <body ng-controller="TodoListController as app" style="{{ app.color }}">
     <h1> {{ app.test }} </h1>
-    <button type="button" ng-click="app.changeMode(app.mode)">
-      Mode
-        <!-- <i class="fa fa-sun-o" aria-hidden="true"></i> -->
-    </button>
+    <button type="button" ng-click="app.changeMode(app.mode)">Mode</button>
 
   </body>
 </html>
